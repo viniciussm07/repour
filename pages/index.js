@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
       <Navbar/>
       <main>
-        <h1 className="text-3xl font-bold">República Our</h1>
+      <HeroSection/>
       </main>
     </>
   );

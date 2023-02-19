@@ -7,7 +7,7 @@ import logo from "../../public/logos/logo.webp";
 
 export default function Navbar() {
   return (
-    <nav className="">
+    <nav className="sticky z-10 bg-opacity-40 bg-black pb-3 top-0 -mt-28 tracking-wide">
       <div className="bg-red-700 h-9 mb-2" />
       <div className="container flex items-center justify-between mx-auto px-6 max-w-5xl w-full">
         <Link href="/" className="">
@@ -18,46 +18,46 @@ export default function Navbar() {
           />
         </Link>
         <div className="flex items-center md:block" id="navbar-default">
-          <ul className="flex flex-col p-4 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+          <ul className="flex flex-col p-4 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium md:border-0">
             <li>
-              <a
+              <Link
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+              >
+                Sobre Nós
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+              >
+                Infos
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+              >
+                Moradores
+              </Link>
             </li>
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
               >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
+                Contato
               </a>
             </li>
           </ul>
@@ -67,7 +67,7 @@ export default function Navbar() {
             href="https://www.instagram.com/instagrour/"
             aria-current="Instagram"
           >
-            <FaInstagram className="h-9 w-9 text-red-700" />
+            <FaInstagram className="h-9 w-9 text-red-700 hover:text-yellow-500" />
           </Link>
         </div>
       </div>
