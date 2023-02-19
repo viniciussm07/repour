@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 
-import logo from "../../public/logos/logo.PNG";
+import logo from "../../public/logos/logo.webp";
 
 export default function Navbar() {
   return (
