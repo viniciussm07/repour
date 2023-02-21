@@ -21,7 +21,8 @@ export default function Navbar() {
           <ul className="flex flex-col p-4 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium md:border-0">
             <li>
               <Link
-                href="#"
+                href="#home"
+                to="home"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
                 aria-current="page"
               >
@@ -30,7 +31,8 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="#sobre-nos"
+                to="sobre-nos"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
               >
                 Sobre Nós
@@ -38,7 +40,8 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="#infos"
+                to="infos"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
               >
                 Infos
@@ -46,7 +49,8 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="#moradores"
+                to="moradores"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
               >
                 Moradores
