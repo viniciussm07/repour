@@ -13,8 +13,8 @@ export default function HeroSection() {
         <div className="w-80 h-80">
           <Image width={400} src={logo} />
         </div>
-        <p className="text-yellow-600 text-xl drop-shadow-3xl pt-4">
-          Proident in amet tempor sint irure ullamco occaecat cupidatat
+        <p className="text-yellow-600 text-3xl drop-shadow-3xl pt-4">
+          NASCIDO PARA SER REP OUR
         </p>
       </div>
     </section>

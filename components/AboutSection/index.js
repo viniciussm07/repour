@@ -9,27 +9,17 @@ export default function AboutSection() {
       <div className="flex-1 m-16">
         <h2 className="text-4xl pb-5">Sobre Nós</h2>
         <p>
-          Ut et adipisicing in ipsum ea dolore occaecat cillum. Ut magna ipsum
-          ad eiusmod. Voluptate laboris duis ex magna duis sint laboris nisi
-          proident eu eiusmod amet dolore. Duis sint aliquip non exercitation.
-          Nisi magna minim sunt deserunt fugiat labore eu incididunt. Deserunt
-          non sint eu est incididunt nisi adipisicing eu mollit culpa. Aliqua et
-          incididunt laboris quis ex consectetur do ex ea ex. Esse sunt magna
-          anim veniam reprehenderit ea amet officia qui Lorem irure. Sunt qui
-          proident cillum enim dolore ea ea irure mollit nulla tempor culpa
-          minim ullamco. Eiusmod sit et sint tempor laborum adipisicing
-          incididunt voluptate aute commodo. Nostrud est quis mollit nulla
-          cupidatat veniam eiusmod. Eiusmod pariatur irure eu minim do magna ut
-          labore excepteur velit et. Et deserunt excepteur ut dolore tempor.
-          Sint tempor veniam qui fugiat. Officia veniam est sit commodo anim
-          consequat id excepteur. Eu labore quis sunt laboris et Lorem occaecat
-          nisi. Sunt laboris consectetur excepteur non. Duis consequat cillum do
-          reprehenderit et duis aute id incididunt consequat ullamco elit. Sit
-          quis magna sint eu ea sint reprehenderit elit dolore esse officia
-          labore. Enim voluptate amet excepteur culpa et ea occaecat nulla
-          cillum. Sint dolore aute cillum nisi laboris pariatur culpa enim ex
-          do. Est aliqua enim et officia velit mollit sunt tempor enim aliquip
-          est. Quis est irure sunt consequat exercitation amet labore.
+          Olá Calouros! Você está procurando uma casa para morar durante o seu
+          tempo universitário? Nós temos a solução ideal para você! Temos uma
+          república com 5 quartos, 4 banheiros, internet de alta velocidade de
+          300Mb, televisão 4k e uma sala de estudos para os momentos de estudo e
+          trabalho. Além disso, temos 2 cachorras super amigáveis para você se
+          divertir. A república também oferece faxina semanal para você ter uma
+          casa sempre limpa e organizada. E se você gosta de entretenimento,
+          temos diversos serviços de streaming para você curtir seus filmes e
+          séries favoritas. Por fim, fazemos compras comuns para que você não
+          precise se preocupar com esses pequenos detalhes. Venha fazer parte da
+          nossa república e tenha uma ótima experiência universitária!
         </p>
       </div>
       <div className="flex-1">
