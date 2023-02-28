@@ -16,7 +16,7 @@ export default function Navbar() {
           href="#home"
           to="home"
           smooth={true}
-          duration={500}
+          duration={600}
           spy={true}
           exact="true"
           offset={-100}
@@ -35,10 +35,10 @@ export default function Navbar() {
                 to="sobre-nos"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
                 smooth={true}
-                duration={500}
+                duration={600}
                 spy={true}
                 exact="true"
-                offset={-100}
+                offset={-135}
               >
                 Sobre Nós
               </Links>
@@ -49,10 +49,10 @@ export default function Navbar() {
                 to="infos"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
                 smooth={true}
-                duration={500}
+                duration={600}
                 spy={true}
                 exact="true"
-                offset={-100}
+                offset={-135}
               >
                 Infos
               </Links>
@@ -63,10 +63,10 @@ export default function Navbar() {
                 to="moradores"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
                 smooth={true}
-                duration={500}
+                duration={600}
                 spy={true}
                 exact="true"
-                offset={-100}
+                offset={-135}
               >
                 Moradores
               </Links>
@@ -77,10 +77,10 @@ export default function Navbar() {
                 to="contato"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
                 smooth={true}
-                duration={500}
+                duration={600}
                 spy={true}
                 exact="true"
-                offset={-100}
+                offset={-135}
               >
                 Contato
               </Links>

@@ -5,7 +5,7 @@ import churras from "../../public/our-photos/24.jpeg";
 
 export default function AboutSection() {
   return (
-    <section id="sobre-nos" className="bg-red-700 flex flex-row bg-blur py-10">
+    <section id="sobre-nos" className="bg-red-700 flex flex-row bg-blur pt-10 pb-16">
       <div className="flex-1 m-16 text-neutral-900">
         <h2 className="text-4xl pb-5">Sobre Nós</h2>
         <div className="text-xl">
