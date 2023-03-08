@@ -33,7 +33,7 @@ export default function Navbar() {
               <Links
                 href="#sobre-nos"
                 to="sobre-nos"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -47,7 +47,7 @@ export default function Navbar() {
               <Links
                 href="#infos"
                 to="infos"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -61,7 +61,7 @@ export default function Navbar() {
               <Links
                 href="#moradores"
                 to="moradores"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -75,7 +75,7 @@ export default function Navbar() {
               <Links
                 href="#contato"
                 to="contato"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 active:text-red-700"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}

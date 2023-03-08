@@ -4,6 +4,8 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import InfosSection from "@/components/InfosSection";
 import ResidentsSection from "@/components/ResidentsSection";
+import Footer from "@/components/Footer";
+import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <AboutSection/>
       <InfosSection/>
       <ResidentsSection/>
+      <Contacts/>
+      <Footer/>
       </main>
     </>
   );
