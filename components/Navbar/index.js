@@ -28,7 +28,7 @@ export default function Navbar() {
           />
         </Links>
         <div className="flex items-center md:block" id="navbar-default">
-          <ul className="flex flex-col p-4 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium md:border-0">
+          <ul className="flex flex-col p-4 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium md:border-0">
             <li>
               <Links
                 href="#quem-somos"
