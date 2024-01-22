@@ -31,8 +31,8 @@ export default function Navbar() {
           <ul className="flex flex-col p-4 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-medium md:border-0">
             <li>
               <Links
-                href="#sobre-nos"
-                to="sobre-nos"
+                href="#quem-somos"
+                to="quem-somos"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
                 smooth={true}
                 duration={600}
@@ -40,7 +40,7 @@ export default function Navbar() {
                 exact="true"
                 offset={-135}
               >
-                Sobre Nós
+                Quem Somos
               </Links>
             </li>
             <li>
