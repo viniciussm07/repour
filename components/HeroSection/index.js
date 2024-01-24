@@ -11,7 +11,7 @@ export default function HeroSection() {
     >
       <div className="flex items-center justify-center flex-col">
         <div className="w-80 h-80">
-          <Image width={400} src={logo} />
+          <Image width={400} src={logo} alt="A Rep OUR"/>
         </div>
         <p className="text-yellow-600 text-3xl drop-shadow-3xl pt-4">
           NASCIDO PARA SER REP OUR

@@ -30,7 +30,7 @@ export default function AboutSection() {
       </div>
       <div className="flex items-center justify-center flex-1 m-4">
         <div className="p-10">
-          <Image src={penajaca} width={650} />
+          <Image src={penajaca} alt="Festa Pé na Jaca" width={650} />
         </div>
       </div>
       </div>
