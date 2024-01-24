@@ -7,10 +7,11 @@ export default function AboutSection() {
   return (
     <section
       id="quem-somos"
-      className="bg-neutral-800 flex flex-row bg-blur p-8"
-    >
-      <div className="flex-1 m-16 text-white">
-        <h2 className="text-4xl pb-5">Quem Somos</h2>
+      className="bg-neutral-800 flex flex-col items-center bg-blur p-8 text-white"
+      >
+      <h2 className="text-4xl pb-5">Quem Somos</h2>
+      <div className="flex">
+      <div className="flex-1 m-16 ">
         <div className="text-2xl">
           <p className="indent-5 mb-20">
             A República OUR foi fundada em 2011 em São Carlos, quando alguns
@@ -31,6 +32,7 @@ export default function AboutSection() {
         <div className="p-10">
           <Image src={penajaca} width={650} />
         </div>
+      </div>
       </div>
     </section>
   );
