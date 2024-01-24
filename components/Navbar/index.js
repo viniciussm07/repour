@@ -33,7 +33,7 @@ export default function Navbar() {
               <Links
                 href="#quem-somos"
                 to="quem-somos"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -47,7 +47,7 @@ export default function Navbar() {
               <Links
                 href="#infos"
                 to="infos"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -61,7 +61,7 @@ export default function Navbar() {
               <Links
                 href="#nossa-casa"
                 to="nossa-casa"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -75,7 +75,7 @@ export default function Navbar() {
               <Links
                 href="#moradores"
                 to="moradores"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -89,7 +89,7 @@ export default function Navbar() {
               <Links
                 href="#contato"
                 to="contato"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
                 smooth={true}
                 duration={600}
                 spy={true}
@@ -106,7 +106,7 @@ export default function Navbar() {
             href="https://www.instagram.com/instagrour/"
             aria-current="Instagram"
           >
-            <FaInstagram className="h-9 w-9 text-red-700 hover:text-yellow-500" />
+            <FaInstagram className="h-9 w-9 text-red-700 hover:text-yellow-400" />
           </Link>
         </div>
       </div>

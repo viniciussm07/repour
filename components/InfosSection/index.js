@@ -23,20 +23,20 @@ export default function InfosSection() {
               <li>
                 <MdLocationOn size={40} className="inline-block" />
                 Nos localizamos a{" "}
-                <span className="text-yellow-600">600m da USP </span>e a{" "}
-                <span className="text-yellow-600">
+                <span className="text-yellow-400">600m da USP </span>e a{" "}
+                <span className="text-yellow-400">
                   200m de um ponto de ônibus para UFSCar
                 </span>
                 ;
               </li>
               <li>
                 <MdCleaningServices size={40} className="inline-block" />
-                <span className="text-yellow-600"> Faxina</span> semanal;
+                <span className="text-yellow-400"> Faxina</span> semanal;
               </li>
               <li>
                 <RiMoneyDollarCircleLine size={40} className=" inline-block" />{" "}
                 Gastos de aproximadamente
-                <span className="text-yellow-600"> R$650,00 </span>
+                <span className="text-yellow-400"> R$650,00 </span>
                 compras comuns e mercado inclusos.
               </li>
             </ul>
