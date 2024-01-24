@@ -6,7 +6,7 @@ import daiane from "../../public/residents/daiane.jpg"
 import ribery from "../../public/residents/ribery.jpg"
 import japao from "../../public/residents/japao.jpg"
 import nelly from "../../public/residents/nelly.jpg"
-import monicao from "../../public/residents/monicao-teste.jpg"
+import monicao from "../../public/residents/monicao.jpg"
 import meiokilo from "../../public/residents/meiokilo.jpg"
 import rasputia from "../../public/residents/rasputia.jpg"
 
