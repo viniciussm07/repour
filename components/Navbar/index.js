@@ -59,6 +59,20 @@ export default function Navbar() {
             </li>
             <li>
               <Links
+                href="#nossa-casa"
+                to="nossa-casa"
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
+                smooth={true}
+                duration={600}
+                spy={true}
+                exact="true"
+                offset={-135}
+              >
+                Nossa Casa
+              </Links>
+            </li>
+            <li>
+              <Links
                 href="#moradores"
                 to="moradores"
                 className="block py-2 pl-3 pr-4 md:p-0 text-yellow-500 hover:text-red-700 "
