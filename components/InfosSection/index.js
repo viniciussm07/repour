@@ -4,9 +4,13 @@ import { RiMoneyDollarCircleLine } from "react-icons/ri";
 
 export default function InfosSection() {
   return (
-    <section id="infos" className="flex flex-col items-center p-8 bg-red-700 text-white">
+    <section
+      id="infos"
+      className="flex flex-col items-center p-8 bg-red-700 text-white"
+    >
       <h2 className="text-4xl pb-5">Infos</h2>
-        <div className="m-16">
+      <div className="flex ">
+        <div className="flex-1 m-16">
           <div className="text-3xl indent-5">
             <ul className="space-y-5">
               <li>
@@ -41,6 +45,7 @@ export default function InfosSection() {
             ></iframe>
           </div>
         </div>
+      </div>
     </section>
   );
 }
