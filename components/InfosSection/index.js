@@ -1,6 +1,7 @@
 import React from "react";
 import { MdCleaningServices, MdLocationOn } from "react-icons/md";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import { BsFillHouseDoorFill } from "react-icons/bs";
 
 export default function InfosSection() {
   return (
@@ -30,7 +31,11 @@ export default function InfosSection() {
                 <RiMoneyDollarCircleLine size={40} className=" inline-block" />{" "}
                 Gastos de aproximadamente
                 <span className="text-yellow-400"> R$650,00 </span>
-                compras comuns e mercado inclusos.
+                compras comuns e mercado inclusos;
+              </li>
+              <li>
+                <BsFillHouseDoorFill size={40} className=" inline-block" />{" "}
+                <span className="text-yellow-400">5 quartos e 4 banheiros.</span>
               </li>
             </ul>
           </div>
