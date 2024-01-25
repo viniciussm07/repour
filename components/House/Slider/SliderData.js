@@ -1,5 +1,5 @@
 import img1 from '../../../public/house/dogs.jpg'
-import img2 from '../../../public/house/sala-sinuca.JPG'
+import img2 from '../../../public/house/sala-sinuca.jpg'
 import img3 from '../../../public/house/frente.jpg'
 import img4 from '../../../public/house/sala-tv.jpg'
 import img5 from '../../../public/house/fundo.jpg'
@@ -22,7 +22,7 @@ export const SliderData = [
         image: img1
     },
     {
-        title: "Sala de TV",
+        title: "Sala de sinuca",
         image: img2
     },
     {
