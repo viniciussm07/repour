@@ -33,7 +33,7 @@ export default function Navbar() {
               <Links
                 href="#quem-somos"
                 to="quem-somos"
-                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
+                className="block py-2 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700"
                 smooth={true}
                 duration={600}
                 spy={true}

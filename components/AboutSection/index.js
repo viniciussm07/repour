@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Link as Links } from "react-scroll";
 
 import penajaca from "../../public/our-photos/pe-na-jaca-2023.webp";
 
@@ -11,8 +12,8 @@ export default function AboutSection() {
     >
       <h2 className="text-4xl pb-5">Quem Somos</h2>
       <div className="flex">
-        <div className="flex-1 m-16 ">
-          <div className="text-2xl">
+        <div className="flex-1 m-16">
+          <div className="text-3xl">
             <p className="indent-5 mb-20">
               A República OUR foi fundada em 2011 em São Carlos, quando alguns
               estudantes de Engenharia de Materiais da USP decidiram morar
@@ -20,12 +21,18 @@ export default function AboutSection() {
               diversas faculdades da cidade, tais como
               <span className="text-red-700"> UFSCar, USP, IFSP e Unicep.</span>
             </p>
-            <a
+            <Links
               className="bg-red-700 text-white font-bold py-2 px-4 rounded-full hover:bg-yellow-600 tracking-wider"
               href="#contato"
+              to="contato"
+              smooth={true}
+              duration={600}
+              spy={true}
+              exact="true"
+              offset={-100}
             >
               Venha participar dessa família!
-            </a>
+            </Links>
           </div>
         </div>
         <div className="flex flex-1 m-4">
