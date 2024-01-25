@@ -1,6 +1,5 @@
 import React from "react";
-import { FaBook, FaLaptop, FaUsers } from "react-icons/fa";
-import Carousel from "./Carousel/Carousel";
+import Slider from "./Slider";
 
 const House = () => {
   return (
@@ -10,7 +9,7 @@ const House = () => {
     >
       <h2 className="text-4xl pb-5 text-white">Nossa Casa</h2>
       <div className="flex items-center justify-center space-x-4">
-        <Carousel />
+        <Slider />
       </div>
     </section>
   );
