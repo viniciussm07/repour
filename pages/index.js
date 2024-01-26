@@ -29,7 +29,7 @@ Venha vivenciar a melhor experiência da sua vida!"
         <InfosSection />
         <House />
         <ResidentsSection />
-        <Party />
+        {/* <Party /> */}
         <Contacts />
         <Footer />
       </main>
