@@ -12,7 +12,7 @@ import "swiper/css/free-mode";
 function Slider() {
   const slides = SliderData;
   return (
-    <div className="flex items-center justify-center flex-col h-screen ">
+    <div className="flex items-center justify-center flex-col ">
       <Swiper
         breakpoints={{
           340: {
@@ -27,7 +27,7 @@ function Slider() {
         modules={[FreeMode, Pagination]}
         freeMode={true}
         pagination={{clickable: true}}
-        className="max-w-7xl w-full h-full"
+        className="max-w-7xl w-full"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.title}>
