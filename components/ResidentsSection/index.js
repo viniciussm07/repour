@@ -1,35 +1,40 @@
 import React from "react";
 import PhotoProfile from "./PhotoProfile";
-
-import xeng from "../../public/residents/xeng.jpeg"
-import daiane from "../../public/residents/daiane.jpg"
-import ribery from "../../public/residents/ribery.jpg"
-import japao from "../../public/residents/japao.jpg"
-import nelly from "../../public/residents/nelly.jpg"
-import monicao from "../../public/residents/monicao.jpg"
-import meiokilo from "../../public/residents/meiokilo.jpg"
-import rasputia from "../../public/residents/rasputia.jpg"
-
+import { Residents } from "./Residents";
 
 export default function ResidentsSection() {
+  const residents = Residents;
+  const halfLength = Math.ceil(residents.length / 2);
+  const firstHalf = residents.slice(0, halfLength);
+  const secondHalf = residents.slice(halfLength);
   return (
     <section
       id="moradores"
       className="flex flex-col items-center py-10 justify-center bg-red-700 text-white"
     >
       <h2 className="text-4xl pb-8">Moradores</h2>
-      <div className="grid-rows-1 text-2xl text-center">
+      <div className="grid grid-rows-1 text-2xl gap-8 text-center">
         <ul className="flex flex-1 mb-10">
-          <li>Xeng <PhotoProfile profileImage={xeng}/><span className="text-xl">018 - USP</span></li>
-          <li>Ribery <PhotoProfile profileImage={ribery}/><span className="text-xl">019 - UFSCar</span></li>
-          <li>Japão <PhotoProfile profileImage={japao}/><span className="text-xl">019 - UFSCar</span></li>
-          <li>Daiane <PhotoProfile profileImage={daiane}/><span className="text-xl">019 - UFSCar</span></li>
+          {firstHalf.map((resident, index) => (
+            <li className="px-4" key={index}>
+              {resident.name} <PhotoProfile profileImage={resident.image} />
+              <span className="text-1xl">
+                {resident.year} - {resident.university}
+              </span>
+              <p className="text-xl">{resident.course}</p>
+            </li>
+          ))}
         </ul>
         <ul className="flex flex-1 mb-10">
-          <li>Nelly <PhotoProfile profileImage={nelly}/><span className="text-xl">021 - USP</span></li>
-          <li>Monicão <PhotoProfile profileImage={monicao}/><span className="text-xl">022 - USP</span></li>
-          <li>Meio Kilo <PhotoProfile profileImage={meiokilo}/><span className="text-xl">023 - UFSCar</span></li>
-          <li>Rasputia <PhotoProfile profileImage={rasputia}/><span className="text-xl">023 - UFSCar</span></li>
+          {secondHalf.map((resident, index) => (
+            <li className="px-4" key={index}>
+              {resident.name} <PhotoProfile profileImage={resident.image} />
+              <span className="text-1xl">
+                {resident.year} - {resident.university}
+              </span>
+              <p className="text-xl">{resident.course}</p>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
