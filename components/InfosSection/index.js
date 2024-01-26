@@ -10,7 +10,7 @@ export default function InfosSection() {
       className="flex flex-col items-center p-8 bg-red-700 text-white"
     >
       <h2 className="text-4xl pb-5">Infos</h2>
-      <div className="flex ">
+      <div className="flex">
         <div className="flex-1 m-16">
           <div className="text-3xl indent-5">
             <ul className="space-y-5">
@@ -40,11 +40,11 @@ export default function InfosSection() {
             </ul>
           </div>
         </div>
-        <div className="flex items-center justify-center flex-1 m-4">
+        <div className="flex flex-1 m-4">
           <div className="p-10">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14796.98168215833!2d-47.8948708!3d-22.0019055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b871a2a7372dbd%3A0x8cb00b9c3769da9d!2sRep%C3%BAblica%20OUR!5e0!3m2!1spt-BR!2sbr!4v1705950430903!5m2!1spt-BR!2sbr"
-              width="600"
+              width="650"
               height="450"
               loading="lazy"
             ></iframe>
