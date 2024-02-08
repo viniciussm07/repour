@@ -90,7 +90,7 @@ export default function Footer() {
         <hr className="my-6 border-neutral-500 sm:mx-auto  lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024{" "}
-          <a href="https://repour.vercel.app/" className="hover:underline">
+          <a href="https://repour.vercel.app/" className="hover:text-yellow-400">
             Rep Our
           </a>
           . All Rights Reserved.
