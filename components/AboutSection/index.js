@@ -8,13 +8,13 @@ export default function AboutSection() {
   return (
     <section
       id="quem-somos"
-      className="bg-neutral-800 flex flex-col items-center bg-blur p-8 text-white"
+      className="bg-neutral-800 flex flex-col items-center bg-blur p-2 md:p-8 text-white"
     >
-      <h2 className="text-4xl pb-5">Quem Somos</h2>
-      <div className="flex">
-        <div className="flex-1 m-16">
-          <div className="text-3xl">
-            <p className="indent-5 mb-20">
+      <h2 className="text-3xl md:text-4xl py-5">Quem Somos</h2>
+      <div className="md:flex">
+        <div className="flex-1 m-8 md:m-16">
+          <div className="md:text-3xl">
+            <p className="indent-5 mb-8 md:mb-20">
               A República OUR foi fundada em 2011 em São Carlos, quando alguns
               estudantes de Engenharia de Materiais da USP decidiram morar
               juntos. Ao longo dos anos, a república cresceu, unindo pessoas de
@@ -35,7 +35,7 @@ export default function AboutSection() {
             </Links>
           </div>
         </div>
-        <div className="flex flex-1 m-4">
+        <div className="flex flex-1 md:m-4">
           <div className="p-10">
             <Image src={penajaca} alt="Festa Pé na Jaca" width={650} />
           </div>

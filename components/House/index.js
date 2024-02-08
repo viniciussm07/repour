@@ -8,7 +8,7 @@ const House = () => {
       className="flex flex-col items-center py-10 justify-center bg-neutral-800 text-white"
     >
       <h2 className="text-4xl pb-5 text-white">Nossa Casa</h2>
-      <div className="flex items-center justify-center space-x-4 p-10">
+      <div className="flex items-center justify-center space-x-4 py-10">
         <Slider />
       </div>
     </section>
