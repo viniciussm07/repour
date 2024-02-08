@@ -38,7 +38,7 @@ export const SliderData = [
         image: img6
     },
     {
-        title: "Suite",
+        title: "Suíte",
         image: img7
     },
     {
