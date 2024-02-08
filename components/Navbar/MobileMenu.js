@@ -3,9 +3,9 @@ import { Link as Links } from "react-scroll";
 
 export default function MobileMenu() {
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center text-2xl">
-      <div className="bg-neutral-600 w-11/12 h-5/6 rounded-lg p-4 flex justify-center">
-        <ul className="flex flex-col p-4 mt-4 ">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center text-2xl">
+      <div className="bg-neutral-600 w-11/12 h-screen rounded-lg p-4 flex justify-center text-center">
+        <ul className="flex flex-col p-4 mt-20 ">
           <li>
             <Links
               href="#quem-somos"
