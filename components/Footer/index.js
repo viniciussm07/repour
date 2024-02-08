@@ -83,14 +83,22 @@ export default function Footer() {
             </li>
           </ul>
           <div className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0">
-            Contato: (19) 99812-7987
+            <a
+              className="hover:text-yellow-400"
+              href="https://wa.me/19998127987"
+            >
+              Contato: (19) 99812-7987
+            </a>
           </div>
         </div>
 
         <hr className="my-6 border-neutral-500 sm:mx-auto  lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024{" "}
-          <a href="https://repour.vercel.app/" className="hover:text-yellow-400">
+          <a
+            href="https://repour.vercel.app/"
+            className="hover:text-yellow-400"
+          >
             Rep Our
           </a>
           . All Rights Reserved.
