@@ -25,7 +25,7 @@ export default function Footer() {
             />
           </Links>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0">
-            <li className="m-2">
+            <li className="mr-2">
               <Links
                 href="#quem-somos"
                 to="quem-somos"
@@ -67,7 +67,7 @@ export default function Footer() {
                 Nossa Casa
               </Links>
             </li>
-            <li className="m-2">
+            <li className="ml-2">
               <Links
                 href="#moradores"
                 to="moradores"
