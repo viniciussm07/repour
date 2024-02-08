@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Link as Links } from "react-scroll";
@@ -6,11 +6,18 @@ import { Link as Links } from "react-scroll";
 import { FaInstagram } from "react-icons/fa";
 
 import logo from "../../public/logos/logo.webp";
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
   return (
-    <nav className="sticky z-10 bg-opacity-40 bg-black pb-3 top-0 -mt-28 tracking-wide">
-      <div className="bg-red-700 h-9 mb-2" />
+    <nav className="sticky bg-opacity-40 bg-black pb-1 md:pb-3 top-0 -mt-28 tracking-wide">
+      <div className="bg-red-700 md:h-9 mb-2" />
       <div className="container flex items-center justify-between mx-auto px-6 max-w-5xl w-full">
         <Links
           href="#home"
@@ -23,11 +30,33 @@ export default function Navbar() {
         >
           <Image
             src={logo}
-            className="h-20 w-20 mr-3"
+            className="h-20 w-20 p-1 md:p-0"
             alt="República Our Logo"
           />
         </Links>
-        <div className="flex items-center md:block" id="navbar-default">
+        <button
+          onClick={handleToggle}
+          type="button"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-red-700 rounded-lg md:hidden hover:bg-neutral-700 focus:outline-none focus:ring-gray-600"
+          aria-expanded="false"
+        >
+          <span className="sr-only">Open main menu</span>
+          <svg
+            className="w-5 h-5"
+            aria-hidden="true"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div className="hidden w-full md:block md:w-auto items-center">
           <ul className="flex flex-col p-4 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium md:border-0">
             <li>
               <Links
@@ -101,7 +130,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="hidden md:block">
           <Link
             href="https://www.instagram.com/instagrour/"
             aria-current="Instagram"
@@ -110,6 +139,7 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
+      {navbarOpen ? <MobileMenu/> : null}
     </nav>
   );
 }

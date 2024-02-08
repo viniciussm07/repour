@@ -12,7 +12,7 @@ import "swiper/css/free-mode";
 function Slider() {
   const slides = SliderData;
   return (
-    <div className="flex items-center justify-center flex-col ">
+    <div className="flex items-center justify-center flex-col">
       <Swiper
         breakpoints={{
           340: {
