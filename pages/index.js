@@ -5,7 +5,6 @@ import AboutSection from "@/components/AboutSection";
 import InfosSection from "@/components/InfosSection";
 import ResidentsSection from "@/components/ResidentsSection";
 import Footer from "@/components/Footer";
-import Contacts from "@/components/Contacts";
 import House from "@/components/House";
 import Party from "@/components/Party";
 

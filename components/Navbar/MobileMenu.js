@@ -4,7 +4,7 @@ import { Link as Links } from "react-scroll";
 export default function MobileMenu() {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center text-2xl">
-      <div className="bg-neutral-600 w-11/12 h-screen rounded-lg p-4 flex justify-center text-center">
+      <div className="bg-neutral-800 w-11/12 h-screen rounded-lg p-4 flex justify-center text-center">
         <ul className="flex flex-col p-4 mt-20 ">
           <li>
             <Links
