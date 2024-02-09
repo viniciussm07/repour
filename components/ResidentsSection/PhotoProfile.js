@@ -5,7 +5,7 @@ export default function PhotoProfile({ profileImage }) {
   return (
     <div>
       <Image
-      className="rounded-full w-40 p-1 my-5 mx-5"
+      className="rounded-full w-24 md:w-36 p-1 my-1"
         src={profileImage}
         alt="Foto de perfil"
         width={300}
