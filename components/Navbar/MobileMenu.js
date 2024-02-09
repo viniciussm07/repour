@@ -1,5 +1,7 @@
 import React from "react";
 import { Link as Links } from "react-scroll";
+import { FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 export default function MobileMenu() {
   return (
@@ -66,7 +68,7 @@ export default function MobileMenu() {
             <Links
               href="#contato"
               to="contato"
-              className="block py-5 pl-3 pr-4 md:p-0 text-yellow-400 hover:text-red-700 "
+              className="block py-5 pl-3 pr-4 text-yellow-400 hover:text-red-700 "
               smooth={true}
               duration={600}
               spy={true}
@@ -75,6 +77,14 @@ export default function MobileMenu() {
             >
               Contato
             </Links>
+          </li>
+          <li className="flex items-center justify-center py-5 pl-3 pr-4 text-yellow-400 hover:text-red-700 ">
+            <Link
+              href="https://www.instagram.com/instagrour/"
+              aria-current="Instagram"
+            >
+              <FaInstagram className="h-9 w-9 text-yellow-400 hover:text-red-700" />
+            </Link>
           </li>
         </ul>
       </div>
