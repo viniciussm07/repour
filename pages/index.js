@@ -26,7 +26,11 @@ Venha vivenciar a melhor experiência da sua vida!"
         />
         <meta
           property="og:image"
-          content="https://repour.vercel.app/logos/logo.webp"
+          content="https://repour.vercel.app/logos/logo-pequeno.webp"
+        />
+        <meta
+          name="twitter:image"
+          content="https://repour.vercel.app/logos/logo-pequeno.webp"
         />
         <meta
           property="og:url"
