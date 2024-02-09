@@ -22,7 +22,7 @@ export default function AboutSection() {
               <span className="text-red-700"> UFSCar, USP, IFSP e Unicep.</span>
             </p>
             <Links
-              className="bg-red-700 text-white font-bold py-2 px-4 rounded-full hover:bg-yellow-600 tracking-wider"
+              className="bg-red-700 text-white py-2 px-4 rounded-full hover:bg-yellow-600 tracking-wider"
               href="#contato"
               to="contato"
               smooth={true}
@@ -31,7 +31,7 @@ export default function AboutSection() {
               exact="true"
               offset={-100}
             >
-              Venha participar dessa família!
+              Venha fazer parte dessa família!
             </Links>
           </div>
         </div>
