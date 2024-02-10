@@ -1,43 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper/modules";
+import { FreeMode, Navigation, EffectCoverflow, Thumbs } from "swiper/modules";
 import { SliderData } from "./SliderData";
 import Image from "next/image";
-import { RxArrowLeftSLine, RxArrowRightSLine } from "react-icons/rx";
 
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/free-mode";
+import "swiper/css/navigation";
 
 function Slider() {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const slides = SliderData;
   return (
     <div className="flex items-center justify-center flex-col">
       <Swiper
         style={{
           "--swiper-navigation-color": "#B91C1C",
-          "--swiper-pagination-color": "#B91C1C",
         }}
-        breakpoints={{
-          340: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          700: {
-            slidesPerView: 2,
-            spaceBetween: 35,
-          },
+        loop={true}
+        spaceBetween={10}
+        navigation={true}
+        slidesPerView={1}
+        thumbs={{
+          swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
         }}
-        modules={[FreeMode, Pagination]}
-        freeMode={true}
-        pagination={{ clickable: true }}
-        className="w-screen z-10"
+        grabCursor={true}
+        modules={[FreeMode, Navigation, EffectCoverflow, Thumbs]}
+        className="mySwiper"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.title}>
-            <Image src={slide.image} alt={slide.title} />
-            <div className="flex items-center justify-center flex-col">
-              <h3 className="text-3xl m-8 py-6">{slide.title}</h3>
+            <Image
+              className="block w-full h-full object-cover"
+              sizes="(max-width: 900px) 90vw,
+                90vw"
+              src={slide.image}
+              alt={slide.title}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <Swiper
+        onSwiper={setThumbsSwiper}
+        loop={true}
+        direction="horizontal"
+        spaceBetween={0}
+        slidesPerView={1}
+        freeMode={true}
+        noSwiping={true}
+        noSwipingClass="swiper-slide"
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiperDescription"
+      >
+        {slides.map((slide) => (
+          <SwiperSlide key={slide.title}>
+            <div className="flex items-center">
+            <h3 className="text-center text-2xl md:text-3xl mt-8 pt-6">{slide.title}</h3>
             </div>
           </SwiperSlide>
         ))}

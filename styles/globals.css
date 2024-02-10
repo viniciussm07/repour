@@ -2,26 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    html{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background: transparent;
-    }
+@layer base {
+  * {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 0;
+  }
+  html {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background: transparent;
+  }
 }
 
 @layer utilities {
-    .scrollbar::-webkit-scrollbar {
-      width: 10px;
-      height: 10px;
-      background-color: #2e2e2e;
-    }
-  
-    .scrollbar::-webkit-scrollbar-thumb {
-      background: #b91c1c;
-      border-radius: 10px;
-    }
-  
-    .scrollbar::-webkit-scrollbar-thumb:hover {
-      background: #cf2929;
-    }
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #2e2e2e;
   }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #b91c1c;
+    border-radius: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #cf2929;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .mySwiper {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 800px;
+  }
+
+  .mySwiperDescription {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+  }
+
+  .parceiro-swiper > .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiperDescription {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+  }
+}
+
+.swiper-button-next:hover {
+  color: #d5ac14;
+}
+
+.swiper-button-next:hover {
+  color: #d5ac14;
+}
+
+@media screen and (max-width: 768px) {
+  .mySwiper {
+    max-height: 300px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0;
+    padding-top: 20px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    text-rendering: auto;
+  }
+
+  .swiper-button-prev {
+    left: 5px;
+  }
+  .swiper-button-next {
+    right: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mySwiper {
+    max-height: 200px;
+  }
+}
