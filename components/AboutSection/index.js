@@ -21,18 +21,13 @@ export default function AboutSection() {
               diversas faculdades da cidade, tais como
               <span className="text-red-700"> UFSCar, USP, IFSP e Unicep.</span>
             </p>
-            <Links
+            <a
               className="bg-red-700 text-white py-2 px-4 rounded-full hover:bg-yellow-600 tracking-wider"
-              href="#contato"
-              to="contato"
-              smooth={true}
-              duration={600}
-              spy={true}
-              exact="true"
-              offset={-100}
+              href="https://wa.me/19998127987"
+              target="_blank"
             >
               Venha fazer parte dessa família!
-            </Links>
+            </a>
           </div>
         </div>
         <div className="flex flex-1 md:m-4">
