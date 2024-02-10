@@ -12,6 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta httpEquiv="content-language" content="pt-br" />
+        <title>República Our - São Carlos</title>
         <meta
           name="description"
           content="República estudantil de São Carlos com estudantes da USP e UFSCar.
@@ -32,13 +34,10 @@ Venha vivenciar a melhor experiência da sua vida!"
           name="twitter:image"
           content="https://repour.vercel.app/logos/logo-pequeno.webp"
         />
-        <meta
-          property="og:url"
-          content="https://repour.vercel.app/"
-        />
-        <title>República Our - São Carlos</title>
+        <meta property="og:url" content="https://repour.vercel.app/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="canonical" href="https://repour.vercel.app/" />
       </Head>
       <Navbar />
       <main>
