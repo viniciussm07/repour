@@ -16,14 +16,14 @@ export default function Home() {
         <title>República Our - São Carlos</title>
         <meta
           name="description"
-          content="República estudantil de São Carlos com estudantes da USP e UFSCar.
+          content="República estudantil em São Carlos com estudantes da USP e UFSCar.
 Venha vivenciar a melhor experiência da sua vida!"
         />
         <meta property="og:title" content="República Our - São Carlos" />
         <meta property="og:site_name" content="República Our - São Carlos" />
         <meta
           property="og:description"
-          content="República estudantil de São Carlos com estudantes da USP e UFSCar.
+          content="República estudantil em São Carlos com estudantes da USP e UFSCar.
           Venha vivenciar a melhor experiência da sua vida!"
         />
         <meta
