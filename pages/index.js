@@ -36,7 +36,6 @@ Venha vivenciar a melhor experiência da sua vida!"
         />
         <meta property="og:url" content="https://republicaour.vercel.app/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon/favicon.ico" />
         <link rel="canonical" href="https://republicaour.vercel.app/" />
       </Head>
       <Navbar />
