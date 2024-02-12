@@ -40,7 +40,7 @@ export const Residents = [
     name: "Nelly",
     year: "021",
     university: "USP",
-    course: "Física Biomolecular",
+    course: "Sistemas da Informação",
     image: nelly,
   },
   {
