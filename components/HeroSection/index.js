@@ -11,7 +11,7 @@ export default function HeroSection() {
     >
       <div className="pt-28 flex items-center justify-center flex-col">
         <div className="w-20 h-20 md:w-80 md:h-80">
-          <Image width={400} src={logo} alt="A Rep OUR" />
+          <Image width={400} src={logo} alt="A República OUR" />
         </div>
         <h1 className="text-yellow-400 text-2xl md:text-3xl pt-4 ">
           República Our - São Carlos SP
