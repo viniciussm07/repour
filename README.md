@@ -3,7 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Site Rep Our
 
 Site desenvolvido para uma república estudantil.
-Site rodando em [https://repour.vercel.app/](https://repour.vercel.app/)
+
+Deploy feito em [https://repour.vercel.app/](https://repour.vercel.app/)
 
 ## Pré-requisitos
 
