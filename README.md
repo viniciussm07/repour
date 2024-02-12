@@ -1,21 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Site Rep Our
 
-First, run the development server:
+Site desenvolvido para uma república estudantil.
+Site rodando em [https://repour.vercel.app/](https://repour.vercel.app/)
+
+## Pré-requisitos
+
+- Node.js 20
+- npm 9
+
+
+Quick start:
 
 ```bash
-npm run dev
+npm install && npm run dev
 # or
-yarn dev
+yarn install && yarn dev
 # or
-pnpm dev
+pnpm install && pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra em [http://localhost:3000](http://localhost:3000) em seu navegador.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
