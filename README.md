@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Site desenvolvido em Next.js com Tailwind para uma república estudantil.
 
-Deploy feito em [https://repour.vercel.app/](https://repour.vercel.app/)
+Deploy feito em [https://republicaour.vercel.app//](https://republicaour.vercel.app/)
 
 ## Pré-requisitos
 

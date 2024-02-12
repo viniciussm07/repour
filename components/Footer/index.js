@@ -96,7 +96,7 @@ export default function Footer() {
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024{" "}
           <a
-            href="https://repour.vercel.app/"
+            href="https://republicaour.vercel.app/"
             className="hover:text-yellow-400"
           >
             Rep Our

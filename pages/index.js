@@ -28,16 +28,16 @@ Venha vivenciar a melhor experiência da sua vida!"
         />
         <meta
           property="og:image"
-          content="https://repour.vercel.app/logos/logo-pequeno.webp"
+          content="https://republicaour.vercel.app/logos/logo-pequeno.webp"
         />
         <meta
           name="twitter:image"
-          content="https://repour.vercel.app/logos/logo-pequeno.webp"
+          content="https://republicaour.vercel.app/logos/logo-pequeno.webp"
         />
-        <meta property="og:url" content="https://repour.vercel.app/" />
+        <meta property="og:url" content="https://republicaour.vercel.app/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
-        <link rel="canonical" href="https://repour.vercel.app/" />
+        <link rel="canonical" href="https://republicaour.vercel.app/" />
       </Head>
       <Navbar />
       <main>

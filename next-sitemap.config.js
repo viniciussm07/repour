@@ -1,4 +1,4 @@
-const siteUrl = "https://repour.vercel.app/";
+const siteUrl = "https://republicaour.vercel.app/";
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
