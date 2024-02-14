@@ -27,7 +27,7 @@ export default function AboutSection() {
               href="https://wa.me/19998127987"
               target="_blank"
             >
-              Venha fazer parte dessa família!
+              Venha conhecer essa família!
             </a>
           </div>
         </div>
