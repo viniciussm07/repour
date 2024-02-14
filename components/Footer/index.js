@@ -16,7 +16,7 @@ export default function Footer() {
             spy={true}
             exact="true"
             offset={-100}
-            className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+            className="flex items-center mb-4 sm:mb-0 space-x-3"
           >
             <Image
               src={logo}
