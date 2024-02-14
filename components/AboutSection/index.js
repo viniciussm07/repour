@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Link as Links } from "react-scroll";
 
+import japaoEDaiane from "../../public/our-photos/mario-e-luigiOUR.webp";
 import penajaca from "../../public/our-photos/pe-na-jaca-2023.webp";
 
 export default function AboutSection() {
@@ -30,9 +31,10 @@ export default function AboutSection() {
             </a>
           </div>
         </div>
-        <div className="flex flex-1 md:m-4">
+        <div className="flex flex-1 md:m-4 md:items-center md:justify-center">
           <div className="p-10">
-            <Image src={penajaca} alt="Festa Pé na Jaca" width={650} />
+            <Image className="hidden md:block" src={japaoEDaiane} alt="Festa Pé na Jaca" width={400} />
+            <Image className="md:hidden" src={penajaca} alt="Festa Pé na Jaca" width={650} />
           </div>
         </div>
       </div>
