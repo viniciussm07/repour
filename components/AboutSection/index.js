@@ -9,7 +9,7 @@ export default function AboutSection() {
   return (
     <section
       id="quem-somos"
-      className="bg-neutral-800 flex flex-col items-center bg-blur p-2 md:p-8 text-white"
+      className="bg-neutral-800 flex flex-col items-center p-2 md:p-8 text-white"
     >
       <h2 className="text-3xl md:text-4xl py-5">Quem Somos</h2>
       <div className="md:flex">
@@ -31,9 +31,9 @@ export default function AboutSection() {
             </a>
           </div>
         </div>
-        <div className="flex flex-1 md:m-4 md:items-center md:justify-center">
+        <div className="flex flex-1 md:m-4 md:justify-center">
           <div className="p-10">
-            <Image className="hidden md:block" src={japaoEDaiane} alt="Festa Pé na Jaca" width={400} />
+            <Image className="hidden md:block" src={japaoEDaiane} alt="Mario e Luigi" width={400} />
             <Image className="md:hidden" src={penajaca} alt="Festa Pé na Jaca" width={650} />
           </div>
         </div>
